@@ -1,0 +1,10 @@
+[options]
+addons_path = /mnt/extra-addons
+data_dir = /var/lib/odoo
+db_host = 
+db_port = 
+db_user = 
+db_password = 
+; Allows external XML-RPC connections (required for the bot)
+xmlrpc = True
+xmlrpc_port = 
