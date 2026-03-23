@@ -14,6 +14,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - Nginx configuration file + Dockerfile.
 
+- Upload `docker-compose.yaml` to GitHub Gist.
+
 ### Changed
 
 - ...
