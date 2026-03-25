@@ -4,5 +4,5 @@
 !releases/VERSION.md
 
 # Secrets
+odoo/odoo.conf
 .env
-odoo.conf

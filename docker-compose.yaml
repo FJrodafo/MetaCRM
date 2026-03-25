@@ -43,7 +43,7 @@ services:
       - meta_crm_network
     volumes:
       - meta_crm_odoo_data:/var/lib/odoo
-      - ./odoo.conf:/etc/odoo/odoo.conf
+      - ./odoo/odoo.conf:/etc/odoo/odoo.conf:ro
     restart: unless-stopped
   # Nginx
   nginx:

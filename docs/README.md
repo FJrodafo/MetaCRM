@@ -53,7 +53,7 @@ cp .env.example .env
 Do the same for `odoo.conf.example` to `odoo.conf` and fill the credentials:
 
 ```shell
-cp odoo.conf.example odoo.conf
+cp odoo/odoo.conf.example odoo/odoo.conf
 ```
 
 ## Hosts Configuration
