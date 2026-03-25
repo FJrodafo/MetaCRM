@@ -15,6 +15,7 @@ META Channel Corporation - Customer Relationship Management
 4. [Hosts Configuration](#hosts-configuration)
 5. [Odoo](#odoo)
     1. [Start](#start)
+    2. [Check XML-RCP](#check-xml-rcp)
     2. [Stop](#stop)
 
 ## Introduction
@@ -75,7 +76,13 @@ docker compose up -d --build
 
 > [!NOTE]
 > 
-> Odoo: [http://crm.metachannelcorp.com](http://crm.metachannelcorp.com)
+> Odoo: http://crm.metachannelcorp.com
+
+### Check XML-RCP
+
+```shell
+curl -s http://crm.metachannelcorp.com/xmlrpc/2/common -d "<?xml version='1.0'?><methodCall><methodName>version</methodName><params></params></methodCall>" -H "Content-Type: text/xml"
+```
 
 ### Stop
 
